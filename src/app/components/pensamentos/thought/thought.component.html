@@ -4,9 +4,9 @@
   <p class="authorship"><b>{{thought.authorship}}</b></p>
   <div class="actions">
     <button class="btn-update">
-      <img src="../../../../assets/images/icone-editar.png" alt="ícone de editar" srcset="">
+      <img src="../../../../assets/images/icone-editar.png" routerLink='/thoughts/updateThought/{{thought.id}}' alt="ícone de editar" srcset="">
     </button>
-    <button class="btn-delete">
+    <button class="btn-delete" routerLink='/thoughts/deleteThought/{{thought.id}}'>
       <img src="../../../../assets/images/icone-excluir.png" alt="ícone de excluir" srcset="">
     </button>
   </div>
